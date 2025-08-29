@@ -1,0 +1,489 @@
+.navbar {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    background-color: #272727;
+    justify-content: space-between;
+    padding: 12px 36px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.l1 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.icon {
+    color: yellow;
+    font-size: 30px;
+
+}
+
+.navbar ul {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.submit{
+    border: 2px solid crimson;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px 24px;
+    background-color: crimson;
+    color: #fff;
+    margin-left: 150px;
+}
+
+.dark-mode-icon {
+    margin: 8px 30px 0 0;
+}
+.btn-red{
+    border: 2px solid crimson;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 8px 24px;
+    background-color: crimson;
+    color: #fff;
+
+}
+.icon1{
+    font-size: x-large;
+}
+.error {
+    color: red;
+    font-size: 20px;
+    margin-top: 4px;
+    display: block;
+}
+
+
+
+
+.home-dark {
+    background-color: #393939;
+    color: #fff;
+
+}
+
+.home,
+.home-dark {
+    min-height: 100vh;
+    padding: 30px 0;
+}
+
+.home-dark .todo-dark {
+    background-color: #272727;
+    box-shadow: 0 .5rem 1rem #00000026;
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+.todo-form .title {
+
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    justify-content: center;
+    padding: 24px 0 0;
+}
+
+.todo-form form input {
+    border: none border-radius: 5px;
+    font-size: 16px;
+    margin: auto auto 20px;
+    padding: 16px 14px;
+    width: 100%;
+}
+
+.todo-form form {
+    margin: 25px auto auto;
+    position: relative;
+    width: 80%;
+}
+
+.add-btn {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background-color: gold;
+    color: #fff;
+    border: 2px solid gold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px 24px;
+}
+
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+
+    padding-bottom: 24px;
+    /* width: 80%; */
+}
+
+.todo-list .task-dark {
+    background-color: #fff2aa;
+}
+
+.todo-list .task .task-title,
+.todo-list .task-dark .task-title {
+    border-radius: 6px;
+    /* width: 100%; */
+}
+
+.todo-list .task .actions,
+.todo-list .task-dark .actions {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    gap: 10px;
+}
+
+.todo-list .task .complete-btn,
+.todo-list .task-dark .complete-btn {
+    background-color: gold;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 8px 4px;
+
+}
+
+.edit-btn,
+.edit-btn:hover {
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 8px 4px 10px;
+    background-color: #6495ed;
+
+
+}
+
+.todo-list .task .delete-btn,
+.todo-list .task-dark .delete-btn {
+    background-color: #f3345b;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 8px 4px;
+    transition: all .3s;
+}
+
+.more-btn,
+.more-btn:hover {
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    transition: all .3s;
+    padding: 8px 8px 4px 10px;
+}
+
+.todo-list .task,
+.todo-list .task-dark {
+    border-radius: 8px;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-between;
+    margin: 5px 12px;
+    padding: 25px;
+    width: 245px;
+
+}
+
+.Form-box-dark {
+    background-color: #e4e4e4;
+    color: black;
+
+}
+
+.notdata {
+    font-size: x-large;
+    font-weight: 900;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todo-form.Form-box-dark {
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
+
+.home-dark.light-mode {
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 .5rem 1rem #00000026;
+    max-width: 1200px;
+
+}
+
+.card.Form-box-dark {
+    background-color: rgb(236, 236, 236);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.content {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.main-title {
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: 600;
+    justify-content: center;
+    padding: 24px 0 0;
+    position: relative;
+}
+
+.text-red {
+    color: crimson;
+}
+
+.desc {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.line {
+    background-color: gold;
+    border: gold;
+    bottom: -20px;
+    content: "";
+    height: 3px;
+    left: 0;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+.content1 {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.services .card-dark {
+    background-color: #272727;
+    color: #fff;
+    font-size: larger;
+
+}
+.services .card-light{
+    background-color: white;
+    color:black;
+    font-size: larger;
+
+}
+
+.services .card .chip.pending,
+.services .card-dark .chip.pending {
+    background-color: crimson;
+}
+.services .card-light .chip.pending {
+    background-color: crimson;
+}
+
+.services .card .chip,
+.services .card-dark .chip {
+    border-radius: 10px;
+    color: #fff;
+    padding: 4px 10px;
+}
+.services .card .chip,
+.services .card-light .chip {
+    border-radius: 10px;
+    color: #fff;
+    padding: 4px 10px;
+    background-color: gold;
+}
+
+.services .card,
+.services .card-light {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 12px 16px;
+}
+.services .card,
+.services .card-dark {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 12px 16px;
+}
+
+
+.services .card .chip.complet,
+.services .card-dark .chip.complet {
+    background-color: gold;
+}
+
+
+.services .card .chip.complet,
+.services .card-light.chip.complet {
+    background-color: gold;
+}
+
+.line1 {
+    background-color: gold;
+    bottom: -10px;
+    border: gold;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transition: all .4s;
+    width: 100%;
+}
+
+.link-active {
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+.link-active.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: gold;
+    left: 0;
+    bottom: 0;
+}
+
+ .card-light {
+    background-color: #fff2aa;
+    color: black;
+    font-size: larger;
+
+}
+.model-containerbox{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0000009f;
+    position: fixed;
+    z-index: 999;
+}
+.model-whitebox{
+    background-color: black;
+    width: 30%;
+    margin: 50px auto;
+    padding: 10px; 
+    border-radius: 10px;
+}
+.logout{
+    padding: 10px;
+    background-color: yellow;
+    border: yellow;
+    color: white;
+    border-radius: 10px;
+}
+.cancle{
+     padding: 10px;
+    background-color:red;
+    border: red;
+    color: white;
+     border-radius: 10px;
+}
+.btn-display{
+    display: flex;
+    justify-content: flex-end;
+    
+    gap: 20px;
+}
+.p1{
+    margin-bottom: 70px;
+    padding: 20px;
+    color: white;
+}
+.detail{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 20px;
+    background-color: #9ab5e7;
+    color: white;
+   
+    padding: 20px;
+}
+.detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.detail h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.detail p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Optional: Add a back button */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 8px 16px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #2980b9;
+}

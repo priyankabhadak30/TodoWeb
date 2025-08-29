@@ -1,0 +1,58 @@
+.register-bg-dark {
+    background-color: #393939;
+    min-width: 100vh;
+    padding: 50px;
+}
+
+.register-dark {
+    background-color: #272727;
+    color: #fff;
+    max-width: 500px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.main {
+    text-align: center;
+}
+
+.pera {
+    text-align: center;
+    margin: 10px;
+}
+.label {
+    margin-bottom: 10px;
+
+}
+.btn {
+    background-color: #da2146;
+    border: 2px solid #966670;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 24px;
+    pointer-events: none;
+    transition: all .3s;
+}
+.text {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.register-dark input {
+    background-color: #ebf7ff;
+    border: 2px solid #ebf7ff;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px 12px;
+    width: 100%;
+}
+.mBottom {
+    margin-bottom: 24px;
+}
